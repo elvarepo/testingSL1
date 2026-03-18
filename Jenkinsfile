@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        APP_DIR = "/home/ec2-user/pet-record-app"
-        PID_FILE = "/home/ec2-user/pet-record-app/app.pid"
-        LOG_FILE = "/home/ec2-user/pet-record-app/app.log"
+        APP_DIR = "/var/lib/jenkins/pet-record-app"
+        PID_FILE = "/var/lib/jenkins/pet-record-app/app.pid"
+        LOG_FILE = "/var/lib/jenkins/pet-record-app/app.log"
     }
 
     stages {
